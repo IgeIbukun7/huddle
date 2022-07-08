@@ -1,0 +1,82 @@
+body {
+  padding-top: 30px;
+  background-color: magenta;
+  background-color: hsl(257, 40%, 49%);
+  width: 1440px;
+  margin: 0;
+  text-align: center;
+  background-image: url("images/bg-desktop.svg");
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 2.5em;
+  font-family: 'Poppins', sans-serif;
+  text-align: left;
+}
+
+.logo {
+  position: absolute;
+  left: 40px;
+  margin-bottom: 10px;
+}
+
+.content {
+  float: right;
+  position: relative;
+  right: 10px;
+  width: 40%;
+  margin-left: 60px;
+  color: white;
+  padding-top: 50px;
+}
+
+.photo {
+  padding-top: 50px;
+  width: 50%;
+}
+
+.words {
+  width: 70%;
+  text-align: left;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+}
+
+.container {
+  padding-top: 40px;
+}
+
+.btn {
+  position:absolute;
+  left: 0;
+  font-size: 17px;
+  padding: 15px 50px;
+  font-family: 'Open Sans', sans-serif;
+  border-radius: 30px;
+  color:magenta;
+  color: hsl(257, 40%, 49%);
+  background-color: white;
+
+}
+.btn:hover {
+  background: magenta;
+  background:hsl(300, 69%, 71%);
+  color: white;
+  cursor: pointer;
+
+}
+.footer {
+  position: absolute;
+  right: 50px;
+}
+
+.link{
+  color: white;
+}
+.link:hover{
+  cursor: pointer;
+}
