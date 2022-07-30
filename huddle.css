@@ -24,8 +24,6 @@ h2 {
 }
 
 .content {
-  float: right;
-  position: relative;
   right: 10px;
   width: 40%;
   margin-left: 60px;
@@ -48,15 +46,22 @@ h2 {
 
 .container {
   padding-top: 40px;
+  display: flex;
+  flex-direction: row;
+  margin: 50px 100px ;
+
 }
 
 .btn {
-  position:absolute;
+  display: flex;
+  flex-direction: column;
   left: 0;
+  border: none;
   font-size: 17px;
   padding: 15px 50px;
   font-family: 'Open Sans', sans-serif;
   border-radius: 30px;
+  text-decoration: none;
   color:magenta;
   color: hsl(257, 40%, 49%);
   background-color: white;
@@ -69,14 +74,36 @@ h2 {
   cursor: pointer;
 
 }
-.footer {
-  position: absolute;
+.social {
+  margin-right: 60px;
   right: 50px;
+  gap: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 
-.link{
-  color: white;
+.fa-brands {
+    color: white;
+    border-radius: 100vmax;
+    border: 1px solid white;
+    transition: 300ms cubic-bezier(0.33, 1, 0.68, 1);
+    transition-property: border-color, color;
 }
-.link:hover{
-  cursor: pointer;
-}
+.fa-facebook-f {
+    padding: 0.6em 0.9em;
+  }
+  .fa-twitter {
+      padding: 0.6em 0.9em;
+
+  }
+  .fa-instagram {
+      padding: 0.6em 0.9em;
+
+  }
+  .fa-brands:hover {
+      border-color: magenta;
+      color: magenta;
+      cursor: pointer;
+  }
+
